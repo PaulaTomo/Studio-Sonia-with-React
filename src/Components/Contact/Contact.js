@@ -4,7 +4,7 @@ import "../Contact/contact.css"
 import Icons from "./Icons";
 import "../Contact/icons.css"
 
-const ContactInfo = () => {
+function ContactInfo()  {
     return (
         <Container className="contact-info container ">
             <Row>
@@ -27,6 +27,6 @@ const ContactInfo = () => {
             </Row>
         </Container>
     );
-};
+}
 
 export default ContactInfo;

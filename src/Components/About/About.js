@@ -1,6 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import {Row ,Col} from 'react-bootstrap';
-import Image from 'react-bootstrap/Image'
 import imgStudio from "../../Images/imageStudio.jpg"
 import "../About/about.css"
 
@@ -39,5 +38,6 @@ export default function About() {
                 </Col>
             </Row>
         </Container>
+
     )
 }
