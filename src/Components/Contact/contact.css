@@ -1,0 +1,15 @@
+.contact-info {
+    padding-top: 50px;
+    position: relative;
+    top:180px
+}
+
+.card-info{
+    border: none;
+}
+
+@media (max-width: 991px) {
+    .contact-info .card {
+        width: 100%;
+    }
+}

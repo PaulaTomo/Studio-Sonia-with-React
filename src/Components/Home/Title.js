@@ -1,3 +1,3 @@
 export default function Title(){
-    return <h3>Studio Sonia</h3>
+    return <h3>About</h3>
 }

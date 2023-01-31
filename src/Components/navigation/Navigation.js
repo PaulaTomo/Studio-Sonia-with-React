@@ -1,22 +1,32 @@
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from "../../Images/logo.png";
+import Logo from "../../Images/Logob.png";
 import "./navigation.css"
+import Container from "react-bootstrap/Container";
 
 function Navigation() {
     return (
-        <>
-            <Navbar expand="sm" bg="transparent" variant="light">
-                <Navbar.Brand href="#home"></Navbar.Brand>
-                <img src={Logo} className="logo" alt={"logo"}/>
-                <Nav className="ms-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Services</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
+        <Container className="navbar">
+            <Navbar expand="sm " bg="transparent">
+                <Navbar.Brand href="#Home"></Navbar.Brand>
+                <img src={Logo}
+                     width="100"
+                     height="100"
+                     className="logo"
+                     alt={"logo"}/>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="nav-link md-auto">
+                    <Nav.Link href="#Home">Home</Nav.Link>
+                    <Nav.Link href="#About">About</Nav.Link>
+                    <Nav.Link href="#Services">Services</Nav.Link>
+                    <Nav.Link href="#Contact">Contact</Nav.Link>
                 </Nav>
+                </Navbar.Collapse>
+
             </Navbar>
-        </>
+        </Container>
     );
 }
 

@@ -1,0 +1,23 @@
+.about-us{
+  position: relative;
+    top:200px;
+   
+}
+.img-about{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: solid 3px #f35fad;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+.img-about:hover{
+transform: scale(1.1);
+}
+
+@media screen and (max-width: 560px) {
+    .about-us{
+        top:50px;
+    }
+p{
+    font-size: 10px;
+}
+}

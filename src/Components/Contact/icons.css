@@ -1,0 +1,12 @@
+.facebook-icon {
+    color: #3b5998;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.instagram-icon {
+    color: #c13584;
+    font-size: 30px;
+}
+.facebook-icon:hover, .instagram-icon:hover {
+    transform: scale(1.2);
+}
