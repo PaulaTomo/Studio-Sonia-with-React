@@ -6,6 +6,7 @@ import "../Contact/icons.css"
 
 function ContactInfo()  {
     return (
+        <section id="contact">
         <Container className="contact-info container ">
             <Row>
                 <Col>
@@ -14,11 +15,9 @@ function ContactInfo()  {
                         <Card.Body>
                             <Card.Title>Moisei, Judetul Maramures</Card.Title>
                             <Card.Text>
-                                <strong>Adresa:</strong> Str. Principala, Nr. 123, Moisei, Judetul Maramures
+                                <strong>Adresa:</strong> Str. Principala, Moisei, Judetul Maramures
                                 <br />
-                                <strong>Telefon:</strong> +40 000 000 000
-                                <br />
-                                <strong>Email:</strong> moisei@example.com
+                               <strong>Email: </strong><a href="mailto:sony_espada@yahoo.es">sony_espada@yahoo.es</a>
                             </Card.Text>
                         </Card.Body>
                         <Icons/>
@@ -26,6 +25,7 @@ function ContactInfo()  {
                 </Col>
             </Row>
         </Container>
+        </section>
     );
 }
 

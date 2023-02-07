@@ -4,10 +4,11 @@
    
 }
 .img-about{
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
     border: solid 3px #f35fad;
     cursor: pointer;
     transition: ease-in .2s;
+    border-radius: 20px;
 }
 .img-about:hover{
 transform: scale(1.1);
@@ -21,3 +22,18 @@ p{
     font-size: 10px;
 }
 }
+@media screen and (max-width: 560px){
+    .img-about{
+        width:150px;
+        height:160px;
+        margin-bottom: 5px;
+    }
+}
+
+/*@media screen and (min-width: 769px), (max-width:576px){*/
+/*    .img-about{*/
+/*        display: flex;*/
+/*        float: left;*/
+/*    }*/
+
+/*}*/

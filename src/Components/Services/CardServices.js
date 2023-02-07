@@ -11,6 +11,7 @@ import Title from "../Title/Title";
 
 export default function CardServices() {
     return (
+        <section id="services">
         <Container className="services">
         <Row className=" px-4 my-5">
             <Title className="title-services" title={"Servicii"}></Title>
@@ -19,8 +20,7 @@ export default function CardServices() {
                 <Card.Img variant="top" src={photoService1} className="img-services"/>
                 <Card.Body>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Micropigmentare sprancene si extensii gene fir cu fir model 1D, 2D.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -30,8 +30,7 @@ export default function CardServices() {
         <Card.Img variant="top" src={photoService2}  className="img-services" />
         <Card.Body>
             <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Micropigmentare sprancene si extensii gene fir cu fir 1D,2D.
             </Card.Text>
         </Card.Body>
     </Card>
@@ -41,8 +40,7 @@ export default function CardServices() {
         <Card.Img variant="top" src={photoService3} className="img-services" />
         <Card.Body>
             <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Extensii gene fir cu fir model 2D si 3D .
             </Card.Text>
         </Card.Body>
     </Card>
@@ -50,6 +48,7 @@ export default function CardServices() {
 
         </Row>
         </Container>
+        </section>
         );
     }
 

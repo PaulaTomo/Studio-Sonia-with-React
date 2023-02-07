@@ -1,18 +1,26 @@
+.navbar{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .nav-link{
-color: white;
-    font-size: 20px;
+    color: #c9295b;
+    font-size: 18px;
+    padding-left: 5px;
+    cursor: pointer;
+    font-weight: 500;
 
 
 }
+
 .nav-link:hover{
-    color: palevioletred;
+    color: white;
 }
 .nav-link:active{
     text-decoration: none;
     color: palevioletred;
 }
 .logo{
-    margin-left: 50px;
     transition: ease-in .2s;
     cursor: pointer;
 
@@ -21,3 +29,4 @@ color: white;
 .logo:hover{
     transform: scale(1.3);
 }
+

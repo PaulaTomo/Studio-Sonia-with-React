@@ -2,13 +2,16 @@ import Container from 'react-bootstrap/Container';
 import {Row ,Col} from 'react-bootstrap';
 import imgStudio from "../../Images/imageStudio.jpg"
 import "../About/about.css"
+import Title from "../Title/Title";
+
 
 export default function About() {
     return (
+        <section id="about">
         <Container className="about-us">
             <Row className=" px-3 my-5">
                 <Col sm={5}>
-                <img className="img-about img-fluid rounded" src={imgStudio}
+                <img className="img-about img-fluid " src={imgStudio}
                     width="330"
                        height="350"
                     alt="img"
@@ -16,7 +19,7 @@ export default function About() {
                 </Col>
                 <Col sm={7}>
                     <div className="description">
-                    <h2>Bine ati venit la Studio Sonia</h2>
+                        <Title className="title-services" title={"Bine ati venit la Studio Sonia"}></Title>
                                   <p className="mt-4">
                                          Destinația dvs. pentru sprâncene și gene uimitoare cu aspect natural.
                                       Cele mai noi tehnici în microblading și laminare gene pentru a vă îmbunătăți
@@ -38,6 +41,6 @@ export default function About() {
                 </Col>
             </Row>
         </Container>
-
+        </section>
     )
 }
