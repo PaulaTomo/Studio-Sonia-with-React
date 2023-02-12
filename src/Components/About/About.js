@@ -11,7 +11,7 @@ export default function About() {
         <Container className="about-us">
 
             <Row className=" px-3 my-5">
-                <Title className="title-services" title={"Bine ati venit la "}></Title>
+                <Title className="title-services" title={"Bine ați venit la "}></Title>
                 <Col sm={5}>
                 <img className="img-about img-fluid " src={imgStudio}
                     width="330"
