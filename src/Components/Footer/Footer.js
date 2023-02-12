@@ -6,7 +6,7 @@ const Footer = () => (
         <Container>
             <Row>
                 <Col className="text-center py-3  ">
-                    Copyright &copy; {new Date().getFullYear()} Paula Tomoiaga. Toate drepturile sunt rezervate
+                    Copyright &copy; {new Date().getFullYear()} Paula Tomoiaga.
                 </Col>
             </Row>
         </Container>
