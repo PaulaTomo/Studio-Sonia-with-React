@@ -5,6 +5,7 @@ import CarouselHome from "./Components/Home/CarouselHome";
 import About from "./Components/About/About";
 import CardServices from "./Components/Services/CardServices";
 import ContactInfo from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About/>
         <CardServices/>
         <ContactInfo/>
+        <Footer/>
     </>
 
   );
