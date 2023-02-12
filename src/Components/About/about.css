@@ -26,12 +26,12 @@ transform: scale(1.1);
         font-size: 20px;
     }
 
-    .img-about {
-        width: 150px;
-        height: 160px;
-        margin-bottom: 5px;
+    /*.img-about {*/
+    /*    width: 150px;*/
+    /*    height: 160px;*/
+    /*    margin-bottom: 5px;*/
 
-    }
+    /*}*/
     h1{
         padding-top: 25px;
     }
