@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import {Row ,Col} from 'react-bootstrap';
+import Col from 'react-bootstrap';
 import imgStudio from "../../Images/imageStudio.jpg"
 import "../About/about.css"
 import Title from "../Title/Title";
