@@ -13,3 +13,10 @@
         width: 100%;
     }
 }
+a{
+    color: #cb1a7b;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
