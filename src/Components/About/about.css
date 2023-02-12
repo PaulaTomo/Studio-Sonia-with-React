@@ -9,7 +9,6 @@
     cursor: pointer;
     transition: ease-in .2s;
     border-radius: 20px;
-   margin: 10px 0 15px 15px;
 
 
 }
@@ -26,12 +25,6 @@ transform: scale(1.1);
         font-size: 20px;
     }
 
-    /*.img-about {*/
-    /*    width: 150px;*/
-    /*    height: 160px;*/
-    /*    margin-bottom: 5px;*/
-
-    /*}*/
     h1{
         padding-top: 25px;
     }

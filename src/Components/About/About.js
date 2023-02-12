@@ -9,8 +9,9 @@ export default function About() {
     return (
         <section id="about">
         <Container className="about-us">
-            <Title className="title-services" title={"Bine ati venit la Studio Sonia"}></Title>
+
             <Row className=" px-3 my-5">
+                <Title className="title-services" title={"Bine ati venit la "}></Title>
                 <Col sm={5}>
                 <img className="img-about img-fluid " src={imgStudio}
                     width="330"
