@@ -10,14 +10,6 @@ export default function About() {
         <section id="about">
         <Container className="about-us">
             <Title className="title-services" title={"Bine ati venit la Studio Sonia"}></Title>
-            <Row className=" px-3 my-5">
-                <Col sm={5}>
-                <img className="img-about img-fluid " src={imgStudio}
-                    width="330"
-                       height="350"
-                    alt="img"
-                       />
-                </Col>
                 <Col sm={7}>
                     <div className="description">
                                   <p className="mt-4">
@@ -26,7 +18,13 @@ export default function About() {
                                       frumusețea și a vă întări încrederea.
                                        Cu microblading-ul, puteți spune la revedere sprâncenelor neregulate
                                       sau subțiri și bună ziua sprâncenelor perfect formate și umplute,
-                                      care durează până la 2 ani.
+                                      care durează până la 2 ani.</p>
+                        <img className="img-about img-fluid " src={imgStudio}
+                             width="330"
+                             height="350"
+                             alt="img"
+                        />
+                                     <p>
                                        Pentru complementul perfect al sprâncenelor tale microbladate,
                                       încercați si tratamentul de laminare gene. Această procedură sigură
                                       și blândă folosește o soluție de perm pentru a ridica și curbura
@@ -39,7 +37,6 @@ export default function About() {
                     </div>
 
                 </Col>
-            </Row>
         </Container>
         </section>
     )

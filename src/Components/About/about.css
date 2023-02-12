@@ -9,6 +9,9 @@
     cursor: pointer;
     transition: ease-in .2s;
     border-radius: 20px;
+   margin: 10px 0 15px 15px;
+
+
 }
 .img-about:hover{
 transform: scale(1.1);
