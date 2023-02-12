@@ -9,6 +9,7 @@ export default function About() {
     return (
         <section id="about">
         <Container className="about-us">
+            <Title className="title-services" title={"Bine ati venit la Studio Sonia"}></Title>
             <Row className=" px-3 my-5">
                 <Col sm={5}>
                 <img className="img-about img-fluid " src={imgStudio}
@@ -19,7 +20,6 @@ export default function About() {
                 </Col>
                 <Col sm={7}>
                     <div className="description">
-                        <Title className="title-services" title={"Bine ati venit la Studio Sonia"}></Title>
                                   <p className="mt-4">
                                          Destinația dvs. pentru sprâncene și gene uimitoare cu aspect natural.
                                       Cele mai noi tehnici în microblading și laminare gene pentru a vă îmbunătăți
