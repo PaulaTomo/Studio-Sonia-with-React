@@ -1,7 +1,9 @@
 h1 {
-    text-align: center;
+    /*text-align: center;*/
     color: #c13584;
     text-shadow: rgba(246, 25, 131, 0.72) 0 5px 15px;
     font-weight: 700;
     font-size: 40px;
+    margin-left: 15px;
+    margin-bottom: 8px;
 }
