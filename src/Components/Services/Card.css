@@ -4,6 +4,11 @@
     margin-top: 100px;
 
 }
+.services h1{
+   text-align: center;
+    padding-bottom: 20px;
+}
+
 .card-img{
     border: none;
     padding: 10px;
